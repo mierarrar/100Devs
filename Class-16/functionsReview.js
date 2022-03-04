@@ -23,4 +23,4 @@ function multiplieThreeNumsAndReturn(a,b,c){
 function addTwoAndDivide(a,b,c){
     return (a+b)%c;
 }
-//addTwoAndDivide(100,200,10)
+//console.log(addTwoAndDivide(100,200,10));
