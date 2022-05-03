@@ -1,21 +1,21 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-header, footer {
+header, footer{
     height: 100px;
     border: 3px solid lime;
     clear: both;
 }
 
-.first-row {
+.first-row{
     height: 300px;
     border: 3px solid pink;
     width: 33.333%;
     float: left;
 }
 
-.second-row {
+.second-row{
     height: 300px;
     border: 3px solid pink;
     width: 50%;
