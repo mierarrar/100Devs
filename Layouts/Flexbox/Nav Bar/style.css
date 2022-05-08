@@ -20,3 +20,9 @@ nav ul li a{
     text-decoration: none;
     color: black;
 }
+
+@media all and (max-width: 500px){
+    nav{
+        background-color: green;
+    }
+}
