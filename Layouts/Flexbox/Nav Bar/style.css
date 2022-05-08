@@ -24,5 +24,6 @@ nav ul li a{
 @media all and (max-width: 500px){
     nav{
         background-color: green;
+        color: white;
     }
 }
