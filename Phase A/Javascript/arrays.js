@@ -25,3 +25,13 @@ console.log(nums)
 let sum = 0;
 nums.forEach((num) => sum += num);
 console.log(sum/nums.length)
+
+
+// task - 4
+function mulArrayNums(arr){
+    let product = 1;
+    arr.forEach(num => (product *= num )); 
+    console.log(product);
+}
+
+mulArrayNums([10, 20, 30])
