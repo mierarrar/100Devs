@@ -35,3 +35,38 @@ function mulArrayNums(arr){
 }
 
 mulArrayNums([10, 20, 30])
+
+
+// array methods 
+let arr = [1, 3, 4, 5];
+console.log(arr);
+arr.shift();
+console.log(arr);
+arr.unshift('in search of lost time');
+console.log(arr);
+arr.pop();
+console.log(arr);
+arr.push('yuh');
+console.log(arr);
+
+
+// task - 5
+
+// function evenNumsInArr(arr){
+//     let newArr = [];
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] % 2 === 0) newArr.push(arr[i])
+//     } console.log(newArr);
+// }
+
+function evenNumsInArr(arr){
+    let newArr = [];
+    arr.forEach((num) => {
+        if (num % 2 === 0) newArr.push(num);
+    })
+    return newArr
+}
+
+evenNumsInArr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+evenNumsInArr([1, 3, 5, 7, 9]);
+
